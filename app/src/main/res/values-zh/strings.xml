@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">NetworkDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="SearchDialog.Hint">页面上找到</string>
+
+    <!-- 设置项 -->
+    <string name="setting_common_title">普通设置</string>
+
+    <!-- 菜单 -->
+    <string name="menu_item_savepage">保存页面</string>
+    <string name="menu_history">历史</string>
+    <string name="menu_bookmarks">书签</string>
+    <string name="menu_settings">设置</string>
+    <string name="menu_about">关于</string>
+    <string name="menu_exit">退出</string>
+
+    <!-- 历史 -->
+    <string name="history">历史记录</string>
+    <string name="history_menu_clear">清除历史记录</string>
+    <string name="main_acvitity_exit_toast">再按一次退出</string>
+    <string name="main_activity_max_tabs">最多创建五个标签</string>
+    <string name="main_activity_page_loading">页面正在加载中，请稍后再试。</string>
+    <string name="main_activity_page_save_complete">页面保存成功。</string>
+    <string name="main_activity_page_input_url">请输入网址</string>
+
+</resources>
