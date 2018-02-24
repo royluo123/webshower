@@ -76,11 +76,9 @@ public class CustomWebView extends WebView {
 		settings.setDefaultZoom(ZoomDensity.valueOf(ZoomDensity.MEDIUM.toString()));
 		settings.setUserAgentString(USER_AGENT_DEFAULT);
 		CookieManager.getInstance().setAcceptCookie(true);
-		if (Build.VERSION.SDK_INT <= 7) {
-			settings.setPluginsEnabled(true);
-		} else {
-			settings.setPluginState(PluginState.ON_DEMAND);
-		}
+
+		settings.setPluginState(PluginState.ON_DEMAND);
+
 		settings.setSupportZoom(true);
 		// Technical settings
 		settings.setSupportMultipleWindows(true);
